@@ -1,0 +1,30 @@
+
+Get-ChildItem C:\Windows\* |Where-Object Length -gt 10000 | Sort-Object Length | Select-Object Name, Length | tee task4.txt
+
+Name                  Length
+----                  ------
+write.exe              11264
+diagwrn.xml            11433
+diagerr.xml            11433
+winhlp32.exe           11776
+hh.exe                 18432
+comsetup.log           21007
+Professional.xml       30831
+mib.bin                43131
+pyshellext.amd64.dll   46480
+bootstat.dat           67584
+twain_32.dll           81920
+bfsvc.exe              96768
+PFRO.log              145676
+splwow64.exe          164352
+notepad.exe           200704
+ntbtlog.txt           259458
+WMSysPr9.prx          316640
+setupact.log          332497
+regedit.exe           370176
+pyw.exe               732048
+py.exe                732048
+HelpPane.exe         1065984
+explorer.exe         5774088
+
+

@@ -1,0 +1,6 @@
+Caption           : Intel64 Family 6 Model 158 Stepping 9
+DeviceID          : CPU0
+Manufacturer      : GenuineIntel
+MaxClockSpeed     : 3001
+Name              : Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+SocketDesignation : LGA1151

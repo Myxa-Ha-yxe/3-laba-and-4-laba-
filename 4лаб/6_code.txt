@@ -1,0 +1,1 @@
+Get-ChildItem C:\Windows\ | Where-Object Length -gt 10000 | Sort-Object Length| Select-Object Name, Length | ConvertTo-Html | tee task6.html
